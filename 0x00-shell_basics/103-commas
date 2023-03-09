@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1aFv | sed -e 's/\(.*\)\//\1\//' | tr '\n' ',' | sed -e 's/,$/\n/'
+ls -1pq | paste -sd,
