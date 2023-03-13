@@ -1,0 +1,2 @@
+#!/bin/bash
+less -N /etc/passwd /etc/hosts
